@@ -1,0 +1,39 @@
+button{
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+}
+button:hover{
+    cursor:pointer;
+}
+
+.fundo{
+    background-color: black;
+    border-radius: 1em;
+}
+
+h1{
+    color: white;
+}
+
+/*FORMATAÇÃO DOS BOTÕES*/
+.gray{
+    background-color: rgb(102, 99, 99);
+    color: white;
+}
+
+.orange{
+    background-color: rgb(225, 149, 34);
+    color: white;
+}
+
+.result{
+    color: white;
+    display: flex;
+    justify-content: right;
+    margin-right: 1em;
+    font-size: 2em;
+}
